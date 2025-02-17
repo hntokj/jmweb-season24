@@ -270,3 +270,10 @@ blue{
     color:rgb(0, 157, 255);
     border-bottom:2px solid rgb(0, 157, 255);
 }
+
+@media screen and (max-width:480px){
+
+    section{
+        width: 90%;
+    }
+}
