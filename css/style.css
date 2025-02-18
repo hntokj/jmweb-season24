@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 body{
     background-image: url(../images/web-bg.jpg);
     background-size: contain;
@@ -338,7 +338,7 @@ blue{
     
 
     section{
-        width: 90%;
+        width: 85%;
         margin:0px auto 0px auto ;
         background-color:rgb(254, 239, 225);
         padding-top: 20px;
@@ -491,11 +491,11 @@ blue{
         margin: 10px auto;
     }
     .sonotaURL h4{/*↓その他武器の調整内容はこちら↓*/
-        font-size: 20px;
+        font-size: 18px;
         font-weight:900;
     }
     
-    
+
     /*⬇️アタッチメントのアイコン⬇️*/
     .icon1 {
         display: inline-block;
@@ -524,7 +524,7 @@ blue{
         display: flex;
         margin: 20px auto;
         border:6px double black;
-        width:30%;
+        width:40%;
         background-image:url(../images/orinnpasu-topへ.jpg);
         background-size: contain;
     }
