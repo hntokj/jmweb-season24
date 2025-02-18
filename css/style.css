@@ -3,7 +3,6 @@ body{
     background-image: url(../images/web-bg.jpg);
     background-size: contain;
     font-family:"游ゴシック","ヒラギノ角ゴ ProN";
-
 }
 .top {
     width: 100%;
@@ -15,7 +14,6 @@ body{
 .head-article{
     background-image: url(../images/web-bg.jpg);
     background-size: contain;
-
 }
 body{
     width:100%;
@@ -24,11 +22,11 @@ header .top img{ /*top画像*/
     width: 80%;
     border-bottom: 20px double black;
 }
-
 .top-info{
     padding-bottom: 20px;
-
 }
+
+
 .categoryNav{
     border:3px solid black;
     width: 80%;
@@ -45,13 +43,11 @@ header .top img{ /*top画像*/
 }
 
 .categoryNav ul li{
-    list-style-type: square;
     font-size: 30px;
     font-weight: 600;
     color:black;
     margin: 20px 0 20px 20px;
 }
-
 .categoryNav ul li a{
     color: black;
     border-bottom:3px solid rgb(0, 157, 255);
@@ -59,7 +55,8 @@ header .top img{ /*top画像*/
 .categoryNav ul li a:hover{
     color: rgb(0, 157, 255);
     text-decoration: underline double;
-    }
+}
+
 
 section{
     width: 70%;
@@ -73,24 +70,17 @@ main{
     background-size: contain;
 }
 
+
 /*ボタン⬇️*/
-
-home {
+.home {
     background-color: #6ab547;
-   
 }
-
-youtube{
+.youtube{
     background-color: red;
-    
-
 }
-
-x{
+.x{
     background-color: black;
-    
 }
-
 article ul li a{
     background-image:url(../images/orinnpasu-topへ.jpg) ;
     background-size: contain;
@@ -105,7 +95,6 @@ article ul{
     margin: 5px auto;
     display:flex;
     justify-content: center; 
-
 }
 article ul li{/*ボタンの間*/
     margin:0 20px;
@@ -139,7 +128,7 @@ article{
 .top-info .title a h2{
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 32px;
+    font-size: 35px;
     font-weight: 600;
 }
 time{
@@ -153,6 +142,8 @@ time{
     margin:10px 0px 20px 0px;
 }
 
+
+
 .class-img{/*クラス　画像*/
     width: 100%;
     text-align: center; 
@@ -161,7 +152,6 @@ main section .class-img img{/*レジェンド　画像*/
     width:90%;
     margin: 10px auto;
 }
-
 main section a h3{/*レジェンド調整、武器調整*/
     border-bottom: 5px solid #6ab547;
     margin-bottom: 20px;
@@ -173,7 +163,6 @@ main section a h3{/*レジェンド調整、武器調整*/
     background-position: left bottom;
     padding: 20px 0px 0px 10px;
 }
-
 main section h4{/*ヒューズ弱体化*/
     font-size: 25px; 
     font-weight: 700;
@@ -208,7 +197,6 @@ section ul li{ /*囲ってある文*/
     text-align: left;
     margin:20px 0px;
 }
-
 .weapon-img{/*武器　画像*/
     width: 100%;
     text-align: center; 
@@ -218,7 +206,7 @@ main section .weapon-img img{/*武器　画像*/
     margin: 10px auto;
 }
 
-
+/*⬇️アタッチメントのアイコン⬇️*/
 .icon1 {
     display: inline-block;
     width: 40px;
@@ -271,12 +259,29 @@ blue{
     border-bottom:2px solid rgb(0, 157, 255);
 }
 
-@media screen and (max-width:480px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:640px){
     body{
         background-image: url(../images/web-bg.jpg);
         background-size: contain;
         font-family:"游ゴシック","ヒラギノ角ゴ ProN";
-    
     }
     .top {
         width: 100%;
@@ -288,23 +293,22 @@ blue{
     .head-article{
         background-image: url(../images/web-bg.jpg);
         background-size: contain;
-    
     }
     body{
         width:100%;
     }
     header .top img{ /*top画像*/
-        width: 80%;
+        width: 90%;
         border-bottom: 20px double black;
     }
-    
     .top-info{
         padding-bottom: 20px;
-    
     }
+
+
     .categoryNav{
         border:3px solid black;
-        width: 80%;
+        width: 95%;
         background-color: burlywood;
         margin: 0px auto;
     }
@@ -312,19 +316,17 @@ blue{
         margin-bottom: 20px;
     }
     .categoryNav h2{
-        font-size: 45px;
+        font-size: 30px;
         font-weight: 900;
         text-align: center;
     }
-    
     .categoryNav ul li{
-        list-style-type: square;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 600;
         color:black;
-        margin: 20px 0 20px 20px;
+        margin: 10px 0px;
+        padding: 0px 10px;
     }
-    
     .categoryNav ul li a{
         color: black;
         border-bottom:3px solid rgb(0, 157, 255);
@@ -334,61 +336,62 @@ blue{
         text-decoration: underline double;
         }
     
+
     section{
         width: 90%;
         margin:0px auto 0px auto ;
         background-color:rgb(254, 239, 225);
         padding-top: 20px;
     }
-    
     main{
         background-image: url(../images/web-bg.jpg);
         background-size: contain;
     }
     
+
     /*ボタン⬇️*/
     
-    home {
+    .home {
+        font-size: 15px;
+        font-weight: 600;
         background-color: #6ab547;
-       
+        padding:3px;
     }
-    
-    youtube{
+    .youtube{
+        font-size: 15px;
+        font-weight: 600;
         background-color: red;
-        
-    
+        padding:3px;
     }
-    
-    x{
+    .x{
+        font-size: 15px;
+        font-weight: 600;
         background-color: black;
-        
+        padding:3px;
     }
     
+
     article ul li a{
         background-image:url(../images/orinnpasu-topへ.jpg) ;
         background-size: contain;
         display:flex;
-        padding:8px;
+        padding:5px;
         color:#ffffff;
-        font-size: 25px;
-        font-weight: 600;
     }
     article ul{
-        /* width: 70%; */
         margin: 5px auto;
         display:flex;
         justify-content: center; 
-    
     }
     article ul li{/*ボタンの間*/
-        margin:0 20px;
+        margin:0 10px;
     }
     article ul li a:hover{
         color:rgb(0, 157, 255);
     text-decoration: underline double;
     }
     article nav{
-        width:80%;
+        width:90%;
         background-color: black;
         background-size: contain;
         background-size: 100%;
@@ -402,7 +405,6 @@ blue{
     
     
     
-    
     .top-info .title a{
         display: block;
         width: 100%;
@@ -412,7 +414,7 @@ blue{
     .top-info .title a h2{
         padding-top: 5px;
         padding-bottom: 5px;
-        font-size: 32px;
+        font-size: 26px;
         font-weight: 600;
     }
     time{
@@ -426,6 +428,7 @@ blue{
         margin:10px 0px 20px 0px;
     }
     
+
     .class-img{/*クラス　画像*/
         width: 100%;
         text-align: center; 
@@ -434,7 +437,6 @@ blue{
         width:90%;
         margin: 10px auto;
     }
-    
     main section a h3{/*レジェンド調整、武器調整*/
         border-bottom: 5px solid #6ab547;
         margin-bottom: 20px;
@@ -446,7 +448,6 @@ blue{
         background-position: left bottom;
         padding: 20px 0px 0px 10px;
     }
-    
     main section h4{/*ヒューズ弱体化*/
         font-size: 25px; 
         font-weight: 700;
@@ -458,14 +459,14 @@ blue{
         text-align: center; 
     }
     main section .legend-img img{/*レジェンド　画像*/
-        width:70%;
+        width:90%;
         margin: 10px auto;
     }
-    
     main section ul {  /*調整内容　文　囲い*/
+        width:90%;
         border: 5px solid rgb(174, 230, 191);
-        padding: 30px 0px 30px 0px ;
-        margin: 10px 70px 20px;
+        padding: 20px 0px 20px 0px ;
+        margin: 10px auto;
     }
     section ul  a h5{
         margin-top: 30px;
@@ -481,7 +482,6 @@ blue{
         text-align: left;
         margin:20px 0px;
     }
-    
     .weapon-img{/*武器　画像*/
         width: 100%;
         text-align: center; 
@@ -490,8 +490,13 @@ blue{
         width:70%;
         margin: 10px auto;
     }
+    .sonotaURL h4{/*↓その他武器の調整内容はこちら↓*/
+        font-size: 20px;
+        font-weight:900;
+    }
     
     
+    /*⬇️アタッチメントのアイコン⬇️*/
     .icon1 {
         display: inline-block;
         width: 40px;
@@ -543,6 +548,4 @@ blue{
         color:rgb(0, 157, 255);
         border-bottom:2px solid rgb(0, 157, 255);
     }
-
-    
 }
