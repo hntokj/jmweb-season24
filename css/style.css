@@ -1,4 +1,4 @@
- @charset "UTF-8";
+@charset "UTF-8";
 body{
     background-image: url(../images/web-bg.jpg);
     background-size: contain;
@@ -161,13 +161,13 @@ main section a h3{/*レジェンド調整、武器調整*/
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left bottom;
-    padding: 20px 0px 0px 10px;
+    padding: 20px 0px;
 }
 main section h4{/*ヒューズ弱体化*/
     font-size: 25px; 
     font-weight: 700;
     border-bottom: 5px dashed #a7a7a7;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px;
 }
 .legend-img{/*レジェンド　画像*/
     width: 100%;
@@ -446,13 +446,13 @@ blue{
         background-size: contain;
         background-repeat: no-repeat;
         background-position: left bottom;
-        padding: 20px 0px 0px 10px;
+        padding: 20px 0px;
     }
     main section h4{/*ヒューズ弱体化*/
         font-size: 25px; 
         font-weight: 700;
         border-bottom: 5px dashed #a7a7a7;
-        padding: 10px 10px 10px 10px;
+        padding: 10px 0px;
     }
     .legend-img{/*レジェンド　画像*/
         width: 100%;
@@ -491,7 +491,11 @@ blue{
         margin: 10px auto;
     }
     .sonotaURL h4{/*↓その他武器の調整内容はこちら↓*/
-        font-size: 18px;
+        font-size: 17px;
+        font-weight:900;
+    }
+    .mojiOver h4{/*ミシックヘルメット,ランドマーク,ノックダウン*/
+        font-size: 21px;
         font-weight:900;
     }
     
